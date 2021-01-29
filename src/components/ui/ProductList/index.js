@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import './style.css';
 import { Link } from 'react-router-dom';
 
