@@ -5,7 +5,7 @@ function ClubBox(props) {
         <div className="ClubBox">
             <div className="col-12">
                 <div className="row d-flex align-items-center justify-content-center">
-                    <div className="col-3 item" style={{backgroundColor: '#df523c'}}>
+                    <div className="col-12 col-md-3 item" style={{backgroundColor: '#df523c'}}>
                         <div className="row">
                             <div
                                 className="col-5 club-badge"
@@ -20,7 +20,7 @@ function ClubBox(props) {
                         </div>
                     </div>
 
-                    <div className="col-3 item mx-4" style={{backgroundColor: '#03529f'}}>
+                    <div className="col-12 col-md-3 item mx-4 my-md-0 my-4" style={{backgroundColor: '#03529f'}}>
                         <div className="row">
                             <div
                                 className="col-5 club-badge"
@@ -35,7 +35,7 @@ function ClubBox(props) {
                         </div>
                     </div>
 
-                    <div className="col-3 item" style={{backgroundColor: '#a3344b'}}>
+                    <div className="col-12 col-md-3 item" style={{backgroundColor: '#a3344b'}}>
                         <div className="row">
                             <div
                                 className="col-5 club-badge"

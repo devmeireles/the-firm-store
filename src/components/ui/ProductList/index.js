@@ -25,7 +25,7 @@ function ProductList(props) {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="pt-2">
+                                        <div className="pt-3">
                                             <h5 className="title">{value.name}</h5>
                                         </div>
                                     </div>
