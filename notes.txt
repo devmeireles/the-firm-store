@@ -1,0 +1,27 @@
+curl -X POST \
+-H 'accept: application/json' \
+-H 'content-type: application/x-www-form-urlencoded' \
+'https://api.mercadolibre.com/oauth/token' \
+-d 'grant_type=authorization_code' \
+-d 'client_id=2922429484169755' \
+-d 'client_secret=BrimVMh3xCFBFQpz4zH2moypvX4J15Rn' \
+-d 'code=TG-601333474f7c9100067a21d5-148701520' \
+-d 'redirect_uri=https://mercadolivre.com.br'
+
+
+
+ID do aplicativo: 2922429484169755
+
+Secret Key: BrimVMh3xCFBFQpz4zH2moypvX4J15Rn
+
+
+
+https://www.mercadolivre.com.br/?code=TG-601329d04f7c9100067a1110-148701520
+
+
+148701520
+
+
+https://auth.mercadolivre.com.br/authorization?response_type=code&client_id=2922429484169755&redirect_uri=https://mercadolivre.com.br
+
+https://www.mercadolivre.com.br/?code=TG-601333474f7c9100067a21d5-148701520

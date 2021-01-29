@@ -1,0 +1,61 @@
+.ProductListItem {
+    cursor: pointer;
+}
+
+.ProductListItemLink {
+  text-decoration: none !important;
+}
+
+.ProductListItemLink:hover{
+  text-decoration: none !important;
+}
+
+
+.ProductListItem .content {
+  max-width: 350px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ProductListItem .content .image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.ProductListItem .content .image:hover {
+  transform: scale(1.5);
+  filter: grayscale(100%);
+}
+
+.ProductListItem .content .image:hover::after {
+  background: #080808a4;
+  width: 100%;
+  height: inherit;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "FontAwesome";
+  font-weight: 400;
+  content: "\f07a";
+  font-size: 40px;
+}
+
+.ProductListItem .price-tag {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff !important;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.ProductListItem .title {
+  font-size: 20px;
+  color: #131313;
+}

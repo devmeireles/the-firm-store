@@ -1,0 +1,16 @@
+.ClubBox .item {
+  min-height: 150px;
+  background: #a63b3b;
+  border-radius: 10px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.ClubBox .item .club-badge {
+    background-size: 100%;
+    background-position: top;
+    height: 150px;
+    background-repeat: no-repeat;
+}
